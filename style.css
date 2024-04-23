@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background-color: #a32d2d;
+    color: #fff;
+    padding: 10px 70px;
+    justify-content: space-between;
+
+}
+header ul{
+    display: flex;
+    gap: 40px;
+}
+header li{
+    list-style: none;
+}
+.banner {
+    background-color: #943838;
+    font-size: 50%large;
+    color: #fff;
+    text-align: center;
+    padding: 5em;
+}
+
+.banner .titulo {
+    font-size: 100px;
+}
+
+.banner .titulo2 {
+    font-size: 30px
+}
+
+#SobreMim {
+    text-align: center;
+    padding: 20px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+
+}
+.imagem img{
+    text-align: right;
+    width: 40vw;
+    height: 80vh;
+    object-fit: cover;
+    border-radius: 40px;
+    box-shadow: 20px 20px 20px rgba(0,0,0,0.3);
+}
+#Projetos {
+    text-align: center;
+    padding: 20px 70px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: bisque;
+}
+.botao {
+    align-items: baseline;
+}
